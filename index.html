@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Linktree</title>
+</head>
+<body>
+    <div class="flex justify-center items-center min-h-screen bg-[#000000]">
+        <div class="flex flex-col items-center bg-[#18181b] border-2 border-[#27272a] max-w-[400px] p-6 pb-8 rounded-[48px]">
+            <div>
+                <img src="pngtree-flat-character-user-profile-avatar-vector-art-png-image_14644414.png" alt="" class="border-2 rounded-full h-24 w-24 mb-4 p-[3px] object-cover">
+            </div>
+            <h1 class="text-white text-xl font-bold leading-7">Gabriel Holanda</h1>
+            <p class="text-[#a1a1aa] text-xs font-medium mt-1 leading-4">Desenvolvedor Full Stack | Projetos | Tecnologia</p>
+            
+            <a href="" class="flex justify-between items-center bg-linear-[135deg,#ffffff_0%,#a1a1aa_100%] shadow-lg rounded-2xl p-4 mt-8 mb-3.5 w-full">
+                <div>
+                    <span class="text-[10px] font-bold mb-1 text-[#3f3f46]">DESTAQUE</span>
+                    <h2 class="font-bold">Portfólio</h2>
+                    <p class="text-[#27272a] text-[12px] font-medium mt-0.5">Explore meus projetos e veja o que já construí.</p>
+                </div>
+                <div>
+                    <box-icon name='right-arrow-alt' color="#ffffff" class=" bg-black h-7 w-7 border-2 rounded-full ml-3"></box-icon>
+                </div>
+            </a>
+
+            <div class="grid grid-cols-2 w-full gap-3">
+                <a href="https://github.com/gabrielholanda5" target="_blank" class="flex flex-col justify-between bg-[#ffffff0d] border border-[#ffffff1a] rounded-2xl p-4 backdrop-blur-sm hover:bg-[#ffffff1a] hover:border-[#ffffff40]">
+                    <div class="flex justify-center items-center w-8 h-8 bg-white/10 rounded-xl">
+                        <box-icon type='logo' name='github' color="#ffffff" size="sm"></box-icon>
+                    </div>
+                    <h3 class="text-white text-[14px]">GitHub</h3>
+                    <p class="text-[#a1a1aa] text-[11px]">Repositórios e códigos.</p>
+                </a>
+                <a href="https://www.linkedin.com/in/gabriel-holanda-teixeira/" target="_blank" class="flex flex-col justify-between bg-[#ffffff0d] border border-[#ffffff1a] rounded-2xl p-4 backdrop-blur-sm hover:bg-[#ffffff1a] hover:border-[#ffffff40]">
+                    <div class="flex justify-center items-center w-8 h-8 bg-white/10 rounded-xl">
+                        <box-icon name='linkedin' type='logo' color='#ffffff' size="sm" ></box-icon>
+                    </div>
+                    <h3 class="text-white text-[14px]">LinkedIn</h3>
+                    <p class="text-[#a1a1aa] text-[11px]">Minha trajetória profissional.</p> 
+                </a>
+                <a href="https://wa.me/5585999278495?text=Olá!%20Vim%20pelo%20seu%20linktree%20e%20gostaria%20de%20conversar." target="_blank" class="flex flex-col justify-between bg-[#ffffff0d] border border-[#ffffff1a] rounded-2xl p-4 backdrop-blur-sm hover:bg-[#ffffff1a] hover:border-[#ffffff40]">
+                    <div class="flex justify-center items-center w-8 h-8 bg-white/10 rounded-xl">
+                        <box-icon name='whatsapp' type='logo' color='#ffffff' size="sm" ></box-icon>
+                    </div>
+                    <h3 class="text-white text-[14px]">Contato</h3>
+                    <p class="text-[#a1a1aa] text-[11px]">Me chame no WhatsApp.</p> 
+                </a>
+                <a href="Gabriel Holanda Teixeira - Currículo.pdf" target="_blank" class="flex flex-col justify-between bg-[#ffffff0d] border border-[#ffffff1a] rounded-2xl p-4 backdrop-blur-sm hover:bg-[#ffffff1a] hover:border-[#ffffff40]">
+                    <div class="flex justify-center items-center w-8 h-8 bg-white/10 rounded-xl">
+                        <box-icon name='file-pdf' type='solid' color='#ffffff' size="sm" ></box-icon>
+                    </div>
+                    <h3 class="text-white text-[14px]">Currículo</h3>
+                    <p class="text-[#a1a1aa] text-[11px]">Baixe meu currículo em PDF.</p>
+                </a>
+                
+            </div>
+            <div class="mt-8 pt-4 border-t border-white/10 flex items-center justify-center gap-2 text-[11px] text-zinc-500 font-medium w-full">
+                <span class="flex items-center gap-1">
+                    <i class="fa-solid fa-location-dot text-[9px] text-zinc-400"></i> Fortaleza, CE
+                </span>
+                <span>•</span>
+                <span>© 2026</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+</html>
